@@ -150,8 +150,8 @@ const Hero: React.FC = () => {
           {/* Floating Achievements */}
           <div className={`grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 max-w-3xl mx-auto mb-12 sm:mb-16 px-4 transform transition-all duration-1000 delay-900 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
             {[
-              { number: '50+', label: 'Projects Completed' },
-              { number: '5+', label: 'Years Experience' },
+              { number: '15+', label: 'Projects Completed' },
+              { number: '2+', label: 'Years Experience' },
               { number: '100%', label: 'Client Satisfaction' }
             ].map(({ number, label }) => (
               <div
