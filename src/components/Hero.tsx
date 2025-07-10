@@ -77,7 +77,7 @@ const Hero: React.FC = () => {
                 <div className="w-28 h-28 bg-white rounded-full flex items-center justify-center relative overflow-hidden">
                   {/* Profile image with fallback */}
                   <img
-                    src="/profile.png"
+                    src="/profile.jpeg"
                     alt="Profile"
                     className="w-28 h-28 object-cover rounded-full"
                     onError={e => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement?.insertAdjacentHTML('beforeend', '<span class="text-4xl font-bold text-slate-700">P</span>'); }}
