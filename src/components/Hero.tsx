@@ -131,9 +131,9 @@ const Hero: React.FC = () => {
           {/* Enhanced Social Links */}
           <div className={`flex justify-center space-x-6 mb-16 transform transition-all duration-1000 delay-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
             {[
-              { icon: Github, href: 'https://chatsafari.com', label: 'GitHub', color: 'hover:text-gray-900' },
-              { icon: Linkedin, href: 'https://chatsafari.com', label: 'LinkedIn', color: 'hover:text-blue-600' },
-              { icon: Mail, href: 'mailto:contact@chatsafari.com', label: 'Email', color: 'hover:text-red-500' }
+              { icon: Github, href: 'https://github.com/Pritamsaini-coder', label: 'GitHub', color: 'hover:text-gray-900' },
+              { icon: Linkedin, href: 'https://www.linkedin.com/in/pritam-saini-8234b324a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', label: 'LinkedIn', color: 'hover:text-blue-600' },
+              { icon: Mail, href: 'mailto:pritamsaini1906@gmail.com', label: 'Email', color: 'hover:text-red-500' }
             ].map(({ icon: Icon, href, label, color }) => (
               <a
                 key={label}
