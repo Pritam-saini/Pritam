@@ -99,7 +99,7 @@ const Hero: React.FC = () => {
             
             <div className="text-lg sm:text-xl md:text-2xl text-slate-600 mb-4 flex items-center justify-center space-x-2 flex-wrap">
               <Sparkles className="text-yellow-500" size={24} />
-              <span className="text-center">Full-Stack Developer & UI/UX Designer</span>
+              <span className="text-center">Full-Stack Developer</span>
               <Sparkles className="text-yellow-500" size={24} />
             </div>
             
