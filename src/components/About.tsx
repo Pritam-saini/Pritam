@@ -47,7 +47,7 @@ const About: React.FC = () => {
                 or sharing knowledge with the developer community.
               </p>
               <div className="flex flex-wrap gap-4 pt-4">
-                {['HTML', 'CSS', 'J Query', 'WordPress', 'PHP', 'OpenCart', 'Codelgniter'].map((tech) => (
+                {['HTML', 'CSS', 'JQuery', 'WordPress', 'PHP', 'OpenCart', 'Codelgniter'].map((tech) => (
                   <span
                     key={tech}
                     className="px-3 sm:px-4 py-1 sm:py-2 bg-gradient-to-r from-blue-100 to-purple-100 text-slate-700 rounded-full text-xs sm:text-sm font-medium"
