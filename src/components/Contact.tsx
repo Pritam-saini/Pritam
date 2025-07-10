@@ -51,19 +51,19 @@ const Contact: React.FC = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'john.doe@example.com',
-      href: 'mailto:john.doe@example.com'
+      value: 'pritamsaini1906@gmail.com',
+      href: 'mailto:pritamsaini1906@gmail.com'
     },
     {
       icon: Phone,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      value: '+91 9782942109',
+      href: 'tel:+919782942109'
     },
     {
       icon: MapPin,
       title: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Durgapura, Jaipur',
       href: '#'
     }
   ];
