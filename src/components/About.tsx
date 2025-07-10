@@ -29,7 +29,7 @@ const About: React.FC = () => {
               About <span className="bg-gradient-to-r from-gradientFrom to-gradientTo bg-clip-text text-transparent">Me</span>
             </h2>
             <p className="text-lg sm:text-xl text-slate-600 font-sans max-w-3xl mx-auto px-4">
-              I'm a passionate developer with 5+ years of experience creating digital solutions
+              I'm a passionate developer with 2+ years of experience creating digital solutions
               that combine beautiful design with robust functionality.
             </p>
           </div>
@@ -47,7 +47,7 @@ const About: React.FC = () => {
                 or sharing knowledge with the developer community.
               </p>
               <div className="flex flex-wrap gap-4 pt-4">
-                {['React', 'TypeScript', 'Node.js', 'Python', 'PostgreSQL', 'AWS'].map((tech) => (
+                {['HTML', 'CSS', 'J Query', 'WordPress', 'PHP', 'OpenCart', 'Codelgniter'].map((tech) => (
                   <span
                     key={tech}
                     className="px-3 sm:px-4 py-1 sm:py-2 bg-gradient-to-r from-blue-100 to-purple-100 text-slate-700 rounded-full text-xs sm:text-sm font-medium"
