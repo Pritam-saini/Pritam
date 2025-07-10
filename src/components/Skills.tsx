@@ -5,30 +5,20 @@ const Skills: React.FC = () => {
   const skillCategories = [
     {
       icon: Code2,
-      title: 'Frontend Development',
+      title: 'Frontend & Backend',
       skills: [
-        { name: 'React', level: 95 },
-        { name: 'TypeScript', level: 90 },
-        { name: 'Next.js', level: 85 },
-        { name: 'Tailwind CSS', level: 95 }
-      ]
-    },
-    {
-      icon: Server,
-      title: 'Backend Development',
-      skills: [
-        { name: 'Node.js', level: 90 },
-        { name: 'Python', level: 85 },
-        { name: 'PostgreSQL', level: 80 },
-        { name: 'MongoDB', level: 75 }
+        { name: 'HTML', level: 95 },
+        { name: 'CSS', level: 90 },
+        { name: 'BOOTSTRAP', level: 85 },
+        { name: 'MySQL', level: 95 }
       ]
     },
     {
       icon: Palette,
       title: 'Design & UX',
       skills: [
-        { name: 'Figma', level: 85 },
-        { name: 'UI/UX Design', level: 80 },
+        { name: 'Photopea', level: 50 },
+        { name: 'UI/UX Design', level: 0 },
         { name: 'Responsive Design', level: 95 },
         { name: 'Animation', level: 75 }
       ]
@@ -37,10 +27,10 @@ const Skills: React.FC = () => {
       icon: Globe,
       title: 'Tools & Technologies',
       skills: [
-        { name: 'Git', level: 95 },
-        { name: 'AWS', level: 80 },
-        { name: 'Docker', level: 75 },
-        { name: 'CI/CD', level: 70 }
+        { name: 'Git', level: 20 },
+        { name: 'PHP', level: 80 },
+        { name: 'WordPress', level: 80 },
+        { name: 'OpenCart', level: 70 }
       ]
     }
   ];
