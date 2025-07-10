@@ -33,14 +33,14 @@ const Projects: React.FC = () => {
         {
           id: 1,
           title: 'E-Commerce Platform',
-          description: 'A full-featured e-commerce platform with React, Node.js, and PostgreSQL.',
-          localImage: '/project1.jpg', // Local image path (if exists)
+          description: 'A full-featured e-commerce platform developed with WordPress includes all features such payments, delivery and other features.',
+          localImage: '/project1.png', // Local image path (if exists)
           fallbackImage: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop', // Unsplash fallback
-          technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe', 'Redis'],
+          technologies: ['WordPress', 'Razorpay'],
           category: 'fullstack',
           features: ['Payment Integration', 'Admin Dashboard', 'Real-time Updates', 'Analytics'],
-          github: 'https://github.com/yourusername/ecommerce-platform',
-          demo: 'https://ecommerce-demo.vercel.app',
+          github: 'https://github.com/pritam-saini',
+          demo: 'https://pankhudifashion.com/',
           status: 'completed'
         },
         {
@@ -69,6 +69,19 @@ const Projects: React.FC = () => {
           demo: 'https://weather-api-docs.vercel.app',
           status: 'completed'
         }
+        {
+          id: 4,
+          title: 'Task Management App',
+          description: 'A modern task management application with real-time collaboration features.',
+          localImage: '/project2.jpg', // Local image path (if exists)
+          fallbackImage: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop', // Unsplash fallback
+          technologies: ['React', 'TypeScript', 'Firebase', 'Tailwind CSS'],
+          category: 'frontend',
+          features: ['Real-time Updates', 'User Authentication', 'Drag & Drop', 'Team Collaboration'],
+          github: 'https://github.com/yourusername/task-app',
+          demo: 'https://task-app-demo.vercel.app',
+          status: 'completed'
+        },
       ]);
     } finally {
       setLoading(false);
