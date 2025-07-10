@@ -90,7 +90,7 @@ const Header: React.FC = () => {
           {/* Menu Header */}
           <div className="text-center mb-8">
             <div className="w-16 h-16 mx-auto bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center mb-4 overflow-hidden">
-              <img src="/profile.png" alt="Profile" className="w-full h-full object-cover rounded-full border-4 border-white shadow-lg" />
+              <img src="/profile.jpeg" alt="Profile" className="w-full h-full object-cover rounded-full border-4 border-white shadow-lg" />
             </div>
             <h3 className="text-lg font-semibold text-slate-800">Navigation</h3>
             <p className="text-sm text-slate-600">Choose a section to explore</p>
