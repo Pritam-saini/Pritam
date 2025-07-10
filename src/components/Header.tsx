@@ -42,7 +42,7 @@ const Header: React.FC = () => {
             <div className="flex items-center justify-center relative w-full">
               {/* Animated profile pic in header */}
               <div className={`absolute left-0 top-1/2 -translate-y-1/2 transition-all duration-500 ease-in-out ${showProfileInHeader ? 'opacity-100 scale-100 translate-x-0' : 'opacity-0 scale-50 -translate-x-6 pointer-events-none'} w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center overflow-hidden border-2 border-white shadow-lg`}>
-                <img src="/profile.png" alt="Profile" className="w-full h-full object-cover rounded-full" />
+                <img src="/profile.jpeg" alt="Profile" className="w-full h-full object-cover rounded-full" />
               </div>
               <div className={`text-xl sm:text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent transition-all duration-500 ease-in-out ${showProfileInHeader ? 'ml-12 sm:ml-16' : ''}`}
                 style={{ marginLeft: showProfileInHeader ? undefined : '0', marginRight: showProfileInHeader ? 'auto' : 'auto' }}>
