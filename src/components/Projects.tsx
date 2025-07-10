@@ -68,7 +68,7 @@ const Projects: React.FC = () => {
           github: 'https://github.com/yourusername/weather-api',
           demo: 'https://weather-api-docs.vercel.app',
           status: 'completed'
-        }
+        },
         {
           id: 4,
           title: 'Task Management App',
@@ -81,7 +81,7 @@ const Projects: React.FC = () => {
           github: 'https://github.com/yourusername/task-app',
           demo: 'https://task-app-demo.vercel.app',
           status: 'completed'
-        },
+        }
       ]);
     } finally {
       setLoading(false);
