@@ -61,7 +61,7 @@ const About: React.FC = () => {
             <div className="relative">
               <div className="aspect-square bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl p-1 max-w-sm mx-auto">
                 <img
-                  src="/about.png"
+                  src="/about.jpeg"
                   alt="About Me"
                   className="w-full h-full object-cover rounded-2xl"
                 />
